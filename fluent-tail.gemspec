@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary       = %q{Tools for tailing fluentd stream events}
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/choplin/fluent-tail"
-  spec.license       = "MIT"
+  spec.license       = "Apache-2.0"
 
   spec.files         = `git ls-files -z`.split("\x0")
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
