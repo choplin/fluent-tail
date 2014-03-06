@@ -4,11 +4,11 @@ Using fluent-tail, you can tail [fluentd](http://fluentd.org/) event stream with
 
 ## Caution
 
-Because tool modify the running fluentd process using `drb` and `instance_eval', there is a potential risk that the process could be broken unexpectedly.
+Because this tool modify the running fluentd process using `drb` and `instance_eval', there is a potential risk that the process could be broken unexpectedly.
 
-In addition, this tool might degrade the perfermance of the fluentd process.
+In addition, this tool might degrade the perfermance of the running fluentd process.
 
-*Use this tool at your own risk.*
+Use this tool at your own risk.
 
 ## Installation
 
